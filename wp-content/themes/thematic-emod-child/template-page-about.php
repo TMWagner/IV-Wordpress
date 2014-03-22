@@ -14,13 +14,7 @@
 	<div id="container">
 		<div id="content">
             <div class="mid-col">
-                
-                <div class="mid-col-banner">
-<!--									<img src="idm_bld.png" width="620" height="300" />-->
-									<img src="<?php echo get_stylesheet_directory_uri() ?>/images/zambia_edward.png" />
-
-                </div>  <!--End of slideshow-->
-                
+                                
                 <div class="page-content">
                     <h1><?php the_title() ?></h1>
                     

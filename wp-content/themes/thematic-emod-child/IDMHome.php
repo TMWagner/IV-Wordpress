@@ -50,24 +50,21 @@
 						<div id="ivl-carousel" class="jcarousel-skin-ivl">
 								<ul>
 										<li>
-											<img src="<?php echo get_stylesheet_directory_uri() ?>/images/gallery/r1_a.png" />
-											<p class="gallery_caption">960 Test Picture - 1</p>
+											<img src="<?php echo get_stylesheet_directory_uri() ?>/images/gallery/r3.png" />
+											<!--<p class="gallery_caption">960 Test Picture - 1</p>   Caption in upper right-->
 										</li>
 										
 										<li>
-											<img src="<?php echo get_stylesheet_directory_uri() ?>/images/gallery/r2_a.png" />
-											<p class="gallery_caption">960 Test Picture - 2</p>
+											<img src="<?php echo get_stylesheet_directory_uri() ?>/images/gallery/r2.png" />
+
 										</li>										
 										
 										
 										<li>
-												<img src="<?php echo get_stylesheet_directory_uri() ?>/images/gallery/r3_a.png" />
-												<p class="gallery_caption">EMOD Software</p>
+												<img src="<?php echo get_stylesheet_directory_uri() ?>/images/gallery/r1.png" />
+
 										</li>
-										<li>
-												<img src="<?php echo get_stylesheet_directory_uri() ?>/images/gallery/r4_a.png" />
-												<p class="gallery_caption">Team</p>
-										</li>
+
 
 								</ul>
 						</div>

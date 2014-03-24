@@ -50,6 +50,11 @@
 						<div id="ivl-carousel" class="jcarousel-skin-ivl">
 								<ul>
 										<li>
+											<img src="<?php echo get_stylesheet_directory_uri() ?>/images/gallery/r4.png" />
+											<!--<p class="gallery_caption">960 Test Picture - 1</p>   Caption in upper right-->
+										</li>
+									
+										<li>
 											<img src="<?php echo get_stylesheet_directory_uri() ?>/images/gallery/r3.png" />
 											<!--<p class="gallery_caption">960 Test Picture - 1</p>   Caption in upper right-->
 										</li>

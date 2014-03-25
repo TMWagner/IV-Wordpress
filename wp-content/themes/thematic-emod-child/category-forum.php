@@ -19,22 +19,7 @@
 			<?php thematic_abovecontent(); ?>
 	
 			<div id="content">
-	<div id="forum-note">
-<?php
-	if (is_user_logged_in()) {
-?>
-	<!-- gentle reminder to be polite and courteous, and to not 	talk about highly sensitive issues -->
-	<p>Please remember to be respectful of others, and also, 		remember, that while the forum is partners-only, highly 	sensitive issues might be better discussed through less 		public communication mediums.</p>
-	
-<?php
-	}
-	else {
-?>
-	<p>Sorry, the forum is only available to partners.  Please see the Partnership Inquiry page (in the sidebar under Research) if you would like to find out more about becoming one of EMOD's partners.</p>
-<?php
-	}
-?> 
-	</div> <!-- end of special div section -->
+
 
           
             <?php

@@ -10,6 +10,18 @@
     thematic_abovecontainer();
 
 ?>
+	<script type="text/javascript" src="/wp-includes/js/jquery/jquery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+    //alert(">> Debug about-template: JQuery enabled");
+		$(".block").hover(function() {
+			$(this).toggleClass("active");
+
+      //$(this).next("div").toggleClass("hidden");
+			//$(this).next("div").stop('true','true').slideToggle("slow");
+		});
+	});
+	</script>
 
 	<div id="container">
 		<div id="content">

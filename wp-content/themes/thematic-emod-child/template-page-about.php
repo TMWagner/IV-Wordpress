@@ -11,10 +11,11 @@
     thematic_abovecontainer();
 
 ?>
-	<script type="text/javascript" src="/wp-includes/js/jquery/jquery.js"></script>
+	
+	<script type="text/javascript" src="<?php bloginfo('wpurl'); ?>/wp-includes/js/jquery/jquery.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function() {
-    //alert(">> Debug about-template: JQuery enabled");
+
 		$(".block").hover(function() {
 			$(this).toggleClass("active");
 
@@ -30,7 +31,6 @@
                                 
                 <div class="page-content">
                     <h1><?php the_title() ?></h1>
-                    
                     <?php the_content() ?>
                     <div class="entry-meta"><?php edit_post_link(); ?></div>
                 </div>

@@ -2446,12 +2446,11 @@ Research box...and I couldn't get the line to stop going off the edge border-bot
 }
 
 .innerblock a {
-	color: black;
+	color: #484A4D;
 }
 .innerblock a:hover {
 	text-decoration: none;
-	font-weight: bold;
-	line-height: 1.0em;
+	color: black;
 }
 
 .innerblock p {

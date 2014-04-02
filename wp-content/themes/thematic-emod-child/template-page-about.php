@@ -1,7 +1,8 @@
 <?php
 	/** 
 	 * Template Name: About Page 
-	 * This is a template for the about page and its children. 
+	 * This is a template for the about page and its children.
+	 * Update: 2014-04 (tmw)
 	 */
     // calling the header.php
     get_header();

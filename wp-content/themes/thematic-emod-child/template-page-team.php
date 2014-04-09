@@ -1,7 +1,8 @@
 <?php
 	/** 
 	 * Template Name: Team Page 
-	 * This is a template for the team page and its children. 
+	 * This is a template for the team page and its children.
+	 * Update: 2014-04-04 (tmw)
 	 */
     // calling the header.php
     get_header();
@@ -10,6 +11,22 @@
     thematic_abovecontainer();
 
 ?>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"></link>
+	<script type="text/javascript" src="<?php bloginfo('wpurl'); ?>/wp-includes/js/jquery/jquery.js"></script>
+	<script type="text/javascript">
+		
+		$(function() {
+				$("div.tease").not("nameTitle").click(fnClick);
+		});
+		
+		function fnClick() {
+				$(this).find("i.arrow").toggleClass("fa-caret-down fa-caret-right");
+				$(this).find("img.mugPic").toggleClass("smallpic largepic");
+				//$("img.mugPic").toggleClass("smallpic largepic");
+	
+				$(this).next("div").slideToggle("slow");
+		}
+	</script>
 
 	<div id="container">
 		<div id="content">

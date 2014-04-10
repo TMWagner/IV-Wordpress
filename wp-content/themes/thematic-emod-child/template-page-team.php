@@ -17,6 +17,7 @@
 		
 		$(function() {
 				$("div.tease").not("nameTitle").click(fnClick);
+				$("div.tease").not("nameTitle").hover(fnHoveimg);
 		});
 		
 		function fnClick() {
@@ -25,6 +26,9 @@
 				//$("img.mugPic").toggleClass("smallpic largepic");
 	
 				$(this).next("div").slideToggle("slow");
+		}
+		function fnHoveimg() {    
+				$(this).find("img.mugPic").toggleClass("nohov hoverImg");
 		}
 	</script>
 

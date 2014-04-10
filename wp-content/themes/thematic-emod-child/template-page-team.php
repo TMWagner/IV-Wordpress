@@ -2,7 +2,7 @@
 	/** 
 	 * Template Name: Team Page 
 	 * This is a template for the team page and its children.
-	 * Update: 2014-04-04 (tmw)
+	 * Update: 2014-04-10 (tmw)
 	 */
     // calling the header.php
     get_header();

@@ -144,11 +144,7 @@
 				fit together as a whole gradient...these buttons have rollover to give some
 				fun interaction/engagement factors to the site, we want them to play and 
 				hang around, get comfortable -->
-				<?php 
-					if ($loggedinBool)
-					{
-					?>
-					
+
 					<div class="home-square square-one">
                 		<a href="<?php echo get_permalink($contactPage->ID); ?>" title="about us">
                         	<?php echo $contactTitle ?><br />
@@ -163,7 +159,7 @@
                 	</div>
                 	
                 	<div class="home-square square-three">
-                		<a href="<?php echo get_permalink($downloadPage->ID); ?>" title="download">
+                		<a href="?page_id=29" title="download">
 			                  <?php echo $downloadTitle ?><br />
 			                  <span>Software, data,<br/>and more</span><!--forcing line breaks for all browsers-->
 <!-- <?php echo $downloadDescription ?></span> -->
@@ -185,59 +181,7 @@
                 	</div>
 
                 	
-                	
 
-				<?php
-					}
-					else //not logged in, only show three buttons that are much wider
-					{
-					?>
-					
-					<div class="home-square square-one">
-                		<a href="<?php echo get_permalink($contactPage->ID); ?>" title="about us">
-                        	<?php echo $contactTitle ?><br />
-							<span><?php echo $contactDescription ?></span>
-                    	</a>
-                	</div>                	
-                	<div class="home-square square-two">
-                    	<a href="<?php echo esc_url( $newsPosts_cat_link ); ?>" title="news">NEWS
-                    		<br />
-                    		<span>Current EMOD news</span>
-                    	</a>
-                	</div>
-                	
-                	<div class="home-square square-three">
-                		<div class="fakeLink">
-                		<a href="<?php echo get_permalink($registrationPage->ID); ?>" title="go to inquiry form">
-			                  <?php echo $downloadTitle ?><br />
-			                  <span>(Partners Only)</span>
-			            </a>
-			            </div>
-                	</div>
-                	
-                	<div class="home-square square-four">
-                		<div class="fakeLink">
-                		<a href="<?php echo get_permalink($registrationPage->ID); ?>" title="go to inquiry form">
-		                      DOCUMENTATION<br />
-		                      <span>(Partners Only)</span>
-		                </a>
-		                </div>
-
-                	</div>
-                	
-                	<div class="home-square square-five last">
-                		<div class="fakeLink">
-                		<a href="<?php echo get_permalink($registrationPage->ID); ?>" title="go to inquiry form">
-                			FORUM<br />
-                    		<span>(Partners Only)</span>
-                    	</a>
-                    	</div>
-
-                	</div>
-
-				<?php
-				}
-					?>
 			</div>
 				<div id="home-featured">
 					<h1><?php the_title() ?> </h1>       

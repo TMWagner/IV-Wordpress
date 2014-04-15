@@ -48,46 +48,46 @@ p{
 /* Button 1 */
 
 #button-one a{
-	width:130px;
-	height:50px;
-	padding:0;
-	display:block;
-	text-align:center;
-	line-height:48px;
-	font-family: 'Play', sans-serif;
-	font-size:20px;
-	font-weight:normal;
-	color:#fff;
-	margin:10px auto;
-	
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-	
-	border-width:2px;
-	border-style:solid;
-	border-color:#ccc #333 #777;
-	
-	background: #878787; /* Old browsers */
-	background: -moz-linear-gradient(top, #878787 6%, #3d3d3d 49%, #000000 50%, #000000 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(6%,#878787), color-stop(49%,#3d3d3d), color-stop(50%,#000000), color-stop(100%,#000000)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #878787 6%,#3d3d3d 49%,#000000 50%,#000000 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #878787 6%,#3d3d3d 49%,#000000 50%,#000000 100%); /* Opera11.10+ */
-	background: -ms-linear-gradient(top, #878787 6%,#3d3d3d 49%,#000000 50%,#000000 100%); /* IE10+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#878787', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
-	background: linear-gradient(top, #878787 6%,#3d3d3d 49%,#000000 50%,#000000 100%); /* W3C */
+text-decoration:none; text-align:center; 
+ padding:11px 24px; 
+ border:solid 1px #0594dc; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#3BA4C7; 
+ background-image: -moz-linear-gradient(top, #3BA4C7 0%, #0072a3 100%); 
+ background-image: -webkit-linear-gradient(top, #3BA4C7 0%, #0072a3 100%); 
+ background-image: -o-linear-gradient(top, #3BA4C7 0%, #0072a3 100%); 
+ background-image: -ms-linear-gradient(top, #3BA4C7 0% ,#0072a3 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0072a3', endColorstr='#0072a3',GradientType=0 ); 
+ background-image: linear-gradient(top, #3BA4C7 0% ,#0072a3 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
 }
 
 #button-one a:hover{
-	background: #878787; /* Old browsers */
-	background: -moz-linear-gradient(top, #878787 6%, #3d3d3d 19%, #000000 21%, #000000 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(6%,#878787), color-stop(19%,#3d3d3d), color-stop(21%,#000000), color-stop(100%,#000000)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #878787 6%,#3d3d3d 19%,#000000 21%,#000000 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #878787 6%,#3d3d3d 19%,#000000 21%,#000000 100%); /* Opera11.10+ */
-	background: -ms-linear-gradient(top, #878787 6%,#3d3d3d 19%,#000000 21%,#000000 100%); /* IE10+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#878787', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
-	background: linear-gradient(top, #878787 6%,#3d3d3d 19%,#000000 21%,#000000 100%); /* W3C */
-	text-decoration: none;
+ padding:11px 24px; 
+ border:solid 1px #0594dc; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#3BA4C7; 
+ background-image: -moz-linear-gradient(top, #3BA4C7 0%, #0b9fde 100%); 
+ background-image: -webkit-linear-gradient(top, #3BA4C7 0%, #0b9fde 100%); 
+ background-image: -o-linear-gradient(top, #3BA4C7 0%, #0b9fde 100%); 
+ background-image: -ms-linear-gradient(top, #3BA4C7 0% ,#0b9fde 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b9fde', endColorstr='#0b9fde',GradientType=0 ); 
+ background-image: linear-gradient(top, #3BA4C7 0% ,#0b9fde 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
 }
 
 /* Button 2 */

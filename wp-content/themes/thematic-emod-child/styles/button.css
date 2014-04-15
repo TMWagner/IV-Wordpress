@@ -45,6 +45,10 @@ p{
 	float:left;
 }
 
+.downloadmain td {
+	vertical-align: middle;
+}
+
 /* Button 1 */
 
 #button-one a{

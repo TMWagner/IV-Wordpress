@@ -11,6 +11,8 @@
 
 ?>
 
+  <link href="<?php bloginfo('wpurl'); ?>/wp-content/themes/thematic-emod-child/styles/button.css" rel="stylesheet" type="text/css" />
+
 	<div id="container">
 		<div id="content">
             <div class="mid-col">

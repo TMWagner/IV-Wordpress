@@ -11,13 +11,13 @@
     thematic_abovecontainer();
 
 ?>
-	<link href="<?php bloginfo('wpurl'); ?>/wp-content/themes/thematic-emod-child/styles/button.css" rel="stylesheet" type="text/css" />
+	
 	<script type="text/javascript" src="<?php bloginfo('wpurl'); ?>/wp-includes/js/jquery/jquery.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function() {
 
 		$(".block").hover(function() {
-			$(this).toggleClass("active");
+			$(this).toggleClass("color");
 
       //$(this).next("div").toggleClass("hidden");
 			//$(this).next("div").stop('true','true').slideToggle("slow");

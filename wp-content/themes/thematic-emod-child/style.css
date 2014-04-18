@@ -505,6 +505,13 @@ li.content-column {
     width:45%;
 }
 
+.mainpagepic {
+	box-shadow: 1px 2px 6px 2px rgba(119, 119, 119, 0.58);
+	-moz-box-shadow: 1px 2px 6px 2px rgba(119, 119, 119, 0.58);
+	-webkit-box-shadow: 1px 2px 6px 2px rgba(119, 119, 119, 0.58);
+	margin-bottom: 20px;
+}
+
 
 /*CSS for Rotator*/
 .page-slideshow {

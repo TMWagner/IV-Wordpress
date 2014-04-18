@@ -512,7 +512,6 @@ li.content-column {
 	margin-bottom: 20px;
 }
 
-
 /*CSS for Rotator*/
 .page-slideshow {
 	
@@ -1915,7 +1914,7 @@ table.team-table tr td img {
 }
 
 .aside .widget_search {
-    background-color: #0073a3; /*#0099CC; /*#383e40;*/
+/*    background-color: #0073a3; /*#0099CC; /*#383e40;*/*/
     padding:20px 20px 30px 14px;
 }
 

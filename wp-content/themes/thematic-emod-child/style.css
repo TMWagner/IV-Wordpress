@@ -946,7 +946,7 @@ and inner header is 980, so this is likely the number they are using 980, so 980
 and 979 will work out exactly to 159 */
 .home-square {
 	border-bottom: thin solid #999;
-  width:190px;
+  width:235px;
   height:80px;
   float:left;
   margin:0 6px 6px 0;
@@ -1691,6 +1691,7 @@ table.team-table tr td img {
 	text-align:right;
 }
 #nav-above,#nav-below {
+	display: none;
 	width: 100%;
 }
 #nav-above {

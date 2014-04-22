@@ -173,12 +173,7 @@
 		                </a>
                 	</div>
                 	
-                	<div class="home-square square-five last">
-                		<a href="<?php echo esc_url( $forumPosts_cat_link ); ?>" title="forum">FORUM
-                    		<br />
-                    		<span>IDM user's forum</span>
-                    	</a>
-                	</div>
+
 
                 	
 

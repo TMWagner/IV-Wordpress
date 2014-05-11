@@ -167,9 +167,9 @@
                 	</div>
                 	
                 	<div class="home-square square-four">
-                		<a href="/idmdoc/" target="blank" title="documentation">
+                		<a href="/idmdoc/"  title="documentation">
 		                      DOCUMENTATION<br />
-		                      <span>Will open in<br/> a new window</span>
+		                      <span>Learn the<br/>EMOD model</span>
 		                </a>
                 	</div>
                 	

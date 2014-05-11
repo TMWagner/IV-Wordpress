@@ -126,7 +126,7 @@ function customHeader() { ?>
     <div class="header-inner">
 <!--        <div class="logo"><a href="<?php bloginfo('url') ?>"><img height="50" align="middle" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/EmodWhiteTextPlusIVLABhorizontalSm.png" alt="EMOD Group of Intellectual Ventures Lab" /> </a></div>
 -->
-        <div class="logo"><a href="/" target="new"><img  align="middle" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/IDMod_logo_480px.png" alt="EMOD Global Health of Intellectual Ventures Lab" /> </a></div>
+        <div class="logo"><a href="/"><img  align="middle" src="<?php echo get_bloginfo('stylesheet_directory'); ?>/images/IDMod_logo_480px.png" alt="EMOD Global Health of Intellectual Ventures Lab" /> </a></div>
     </div>
 <?php }
 
